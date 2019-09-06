@@ -7,8 +7,8 @@ int main()
 {
 	int i=0,j=0;
         char sentence[20]="ebrzaisnic";
+	printf("Original : %s\n\n",sentence);
         swap(i,j,sentence);
-	printf("Origional : %s\n\n",sentence);
 	printf("\n\n Final Result :    %s\n\n",sentence);
 	system("pause");
 	return 0;
